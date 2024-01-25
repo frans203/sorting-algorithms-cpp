@@ -26,7 +26,7 @@ void insertionSort(int arr[], int n) {
 }
 
 int main() {
-    int array []= {12,3,44,1,0,1,2};
+    int array []= {10,9,8};
     int n = sizeof(array)/sizeof(array[0]);
     cout << "Sorted array:  \n";
     insertionSort(array, n);
